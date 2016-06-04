@@ -1,0 +1,25 @@
+% Learning Challenge  -  Dataset ARFF-Export
+% ==========================================
+%
+% Dataset: Spirals_tl
+% Subset:  training
+%
+%
+% Dataset Characteristics
+% -----------------------
+% dimensions:                  2
+% number of training points:   10
+% number of test points:       995
+% number of validation points: 995
+% number of classes:           2
+
+@RELATION "Spirals_tl--training"
+
+@ATTRIBUTE x0 NUMERIC
+@ATTRIBUTE x1 NUMERIC
+
+@ATTRIBUTE class { 0,1 }
+
+@DATA
+-6.1897,0.65727,0
+6.4281,-1.3293,1
